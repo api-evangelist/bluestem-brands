@@ -1,8 +1,24 @@
 aid: bluestem-brands
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluestem-brands.png
 name: Bluestem Brands
-description: Bluestem Brands is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bluestem Brands, Inc. is an American multi-brand direct-to-consumer retailer headquartered
+  in Eden Prairie, Minnesota. It is best known for Fingerhut, a credit-based catalog and online retailer
+  that extends revolving credit (via partner WebBank) to underserved consumers so they can purchase
+  brand-name merchandise across home, electronics, apparel, and general merchandise categories. Bluestem
+  historically operated a broader portfolio of catalog and e-commerce brands and reaches shoppers through
+  its websites, mobile apps, and printed catalogs. No public developer program, API, or documentation
+  surface was found for Bluestem Brands or Fingerhut at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/bluestem-brands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Retail
+- E-commerce
+- Consumer Credit
+- Catalog Retail
+- Direct-to-Consumer
 apis: []
+common:
+- type: Website
+  url: https://www.fingerhut.com
+  name: Fingerhut (operating consumer brand of Bluestem Brands)
+- type: TermsOfService
+  url: https://www.fingerhut.com/Home/ShowPage/WebTermAndCondition
+  name: Fingerhut Terms of Use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
